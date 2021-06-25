@@ -1,0 +1,21 @@
+div.row-1 {
+    background-color: #848487;
+    height: 5em;
+}
+div.row-2 {
+    background-color: #FFFFFF;
+    height: 5em;
+}
+div.row-3 {
+    background-color: #848487;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
