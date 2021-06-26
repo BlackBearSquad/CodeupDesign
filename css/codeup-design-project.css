@@ -19,3 +19,12 @@ ul {
     justify-content: space-around;
     list-style: none;
 }
+span {
+    height: 80px;
+    width: 80px;
+    background-color: teal;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
