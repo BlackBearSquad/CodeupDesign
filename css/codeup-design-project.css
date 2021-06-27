@@ -7,9 +7,13 @@ div.row-2 {
     height: 5em;
 }
 div.row-3 {
-    background-color: #848487;
+    background-color: darkgrey;
 }
 h1 {
+    display: flex;
+    justify-content: center;
+}
+h2 {
     display: flex;
     justify-content: center;
 }
