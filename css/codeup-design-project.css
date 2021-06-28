@@ -1,4 +1,4 @@
-div.row-1 {
+div.row-0 {
     background-color: #848487;
     height: 5em;
 }
@@ -31,6 +31,8 @@ span {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    border: 10px solid darkolivegreen;
+
 }
 .badge {
     height: 100px;
@@ -39,5 +41,78 @@ span {
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
+    background: blue;
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px solid white;
+
+}
+.row-1 {
+    height: 50px;
+    width: 50px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
     background: yellow;
 }
+.badge1 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: red;
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px solid white;
+}
+.badge2 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: yellow;
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px solid white;
+
+}
+.badge3 {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: green;
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px solid white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+h3 {
+    display: flex;
+    margin-top: 500px;
+    justify-content: center;
+}
+.container1 {
+    display: flex;
+    border: 5px solid lightgrey;
+    background-color: lightgrey;
+    border-radius: 25px;
+    height: 580px;
+    width: 870px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
