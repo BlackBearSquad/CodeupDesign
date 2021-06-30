@@ -227,6 +227,19 @@
     .container-6 {
         display: none;
     }
+
+    .containerpic2 {
+        display: none;
+    }
+
+    .containerpic3 {
+        display: none;
+    }
+
+    .containerpic4 {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:1200px) {
@@ -370,8 +383,8 @@
         border: 5px solid lightgrey;
         background-color: lightgrey;
         border-radius: 25px;
-        height: 75%;
-        width: 75%;
+        height: 33%;
+        width: 33%;
         justify-content: center;
         margin: auto;
         padding: 20px;
@@ -396,6 +409,42 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .containerpic4 {
+        display: flex;
+        border: 5px solid lightgrey;
+        background-color: lightgrey;
+        border-radius: 25px;
+        height: 33%;
+        width: 33%;
+        justify-content: center;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .containerpic2 {
+        display: flex;
+        border: 5px solid lightgrey;
+        background-color: lightgrey;
+        border-radius: 25px;
+        height: 33%;
+        width: 33%;
+        justify-content: center;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .containerpic3 {
+        display: flex;
+        border: 5px solid lightgrey;
+        background-color: lightgrey;
+        border-radius: 25px;
+        height: 33%;
+        width: 33%;
+        justify-content: center;
+        margin: auto;
+        padding: 20px;
     }
 
     .col-5 {
