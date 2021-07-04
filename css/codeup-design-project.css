@@ -242,7 +242,7 @@
 
 }
 
-@media screen and (min-width:768px) and (max-width:1200px) {
+@media screen and (min-width:768px) and (max-width:991px) {
     div.row-0 {
         background-color: #848487;
         height: 5em;
@@ -506,5 +506,85 @@
 
 }
 @media screen and (min-width:992px) and (max-width:1200px) {
+    div.row-0 {
+        background-color: #848487;
+        height: 5em;
+    }
+
+    div.row-2 {
+        background-color: #FFFFFF;
+        height: 5em;
+    }
+
+    div.row-3 {
+        background-color: darkgrey;
+        justify-content: left;
+        padding-top: 100px;
+    }
+    div.row-3.h2 {
+        display: flex;
+        justify-content: left;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        text-after: wrap;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-row-hidden {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    span {
+        height: 80px;
+        width: 80px;
+        background-color: teal;
+        border-radius: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border: 10px solid darkolivegreen;
+
+    }
+
+    .badge {
+        height: 100px;
+        width: 100px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: blue;
+        margin-right: auto;
+        margin-left: auto;
+        border: 10px solid white;
+
+    }
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .img-logo {
+        display: flex;
+        justify-content: left;
+        height: 180px;
+        width: 170px;
+
+    }
+
 
 }
