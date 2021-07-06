@@ -521,7 +521,7 @@
         justify-content: left;
         padding-top: 100px;
     }
-    div.row-3.h2 {
+    div.row-3 h2 {
         display: flex;
         justify-content: left;
     }
